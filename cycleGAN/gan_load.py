@@ -28,7 +28,7 @@ class file_load(object):
         return X_images
     
     def get_img(self, path):
-        with tf.device('/CPU:0'):
+        with tf.device('/GPU:0'):
             img_array = self.load_images(path, (256,256))
             return img_array
 
