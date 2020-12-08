@@ -1,4 +1,4 @@
 - The CGAN_tf notebook has all the code to create the CGAN from scratch, load the data, and train the models using Google TPU
 - Once you have obtained a trained model you can use the art_translator.py and gan_load.py script to generate and save images using syntax
-  $ python art_translator.py [Path_to_model] [Path_to_images] [Path_to_save]
-  [art_translator.py uses gan_load.py script to load the input images]
+  $ python art_translator.py [Path_to_model] [Path_to_images] [Path_to_save]   **(art_translator.py uses gan_load.py script to load the input images)
+  
